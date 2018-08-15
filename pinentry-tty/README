@@ -6,3 +6,7 @@ POST-INSTALL
   appending the following to ~/.gnupg/gpg-agent.conf
 
     pinentry-program /usr/bin/pinentry-tty
+
+  then run
+
+    gpg-connect-agent reloadagent /bye
