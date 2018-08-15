@@ -1,0 +1,8 @@
+POST-INSTALL
+
+  Since this isn't one of the "official" pinentry ports, it's not
+  included in the list of alternatives in /usr/bin/pinentry, so to use it you
+  must set the command for, for example, GnuPG yourself, which can be done by
+  appending the following to ~/.gnupg/gpg-agent.conf
+
+    pinentry-program /usr/bin/pinentry-tty

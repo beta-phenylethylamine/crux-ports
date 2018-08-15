@@ -1,0 +1,24 @@
+# Description: Secure PinEntry Dialog
+# URL:         http://www.gnupg.org
+# Maintainer:  beta-phenylethylamine, phenethylamine at tutanota dot com
+# Depends on:  pinentry
+
+name=pinentry-tty
+version=1.1.0
+release=1
+source=(ftp://ftp.gnupg.org/gcrypt/pinentry/pinentry-$version.tar.bz2)
+
+build() {
+    cd pinentry-$version
+
+    ./configure \
+      --prefix=/usr \
+      --disable-pinentry-{gtk2,qt,qt5,curses} \
+      --enable-pinentry-tty
+
+    make
+    make DESTDIR=$PKG install
+
+    rm -rf $PKG/usr/share
+    rm $PKG/usr/bin/pinentry
+}
