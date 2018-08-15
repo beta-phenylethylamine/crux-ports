@@ -1,7 +1,7 @@
 # Description: Secure PinEntry Dialog
 # URL:         http://www.gnupg.org
 # Maintainer:  beta-phenylethylamine, phenethylamine at tutanota dot com
-# Depends on:  pinentry
+# Depends on:  libassuan
 
 name=pinentry-tty
 version=1.1.0
