@@ -5,11 +5,13 @@
 
 name=euclid-wm
 version=0.4.3
-release=1
-source=(http://euclid-wm.sourceforge.net/releases/$name-$version.tar.gz)
+release=2
+source=(http://euclid-wm.sourceforge.net/releases/$name-$version.tar.gz start-euclid.in.patch)
 
 build() {
     cd $name-$version
+
+    patch < ../start-euclid.in.patch
 
     make
     make VER=$version DESTDIR=$PKG install

@@ -1,0 +1,10 @@
+--- start-euclid	2013-12-16 10:18:31.000000000 -0500
++++ start-euclid.2	2018-08-17 17:35:17.773332158 -0400
+@@ -16,6 +16,6 @@
+ 	install -m700 -D /usr/share/euclid-wm/euclidrc $CONFDIR/euclidrc
+ fi
+ 
+-#$CONFDIR/euclidrc 
++$CONFDIR/euclidrc 
+ 
+ exec euclid-wm
