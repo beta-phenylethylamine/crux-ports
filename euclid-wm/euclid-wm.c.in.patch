@@ -1,0 +1,11 @@
+--- euclid-wm.c	2018-08-17 18:13:23.849984192 -0400
++++ euclid-wm.c.2	2018-08-17 18:13:49.226650380 -0400
+@@ -701,7 +701,7 @@
+ 	ptr->ft->size = cs->w;
+ 	ptr->orientv = true;
+ 	ptr->stack = NULL;
+-	ptr->showstack = true;
++	ptr->showstack = false;
+ 	ptr->fs = false;
+ 	return ptr;
+  }

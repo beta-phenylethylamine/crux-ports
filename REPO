@@ -5,9 +5,10 @@ f:97318845a218fa8602ad219366ffe2d6:pinentry-tty/.signature
 f:517e1dc6669a56e3278c10c676abf713:pinentry-tty/.footprint
 f:57befa6df49161d3b16ee4925f361537:pinentry-tty/.md5sum
 f:7aaf033cbfa555be697d54198a467b41:pinentry-tty/Pkgfile
+f:108765b0a786ff9ddc4096b944718718:euclid-wm/euclid-wm.c.in.patch
 f:6e793e9218c99ecaafe8370de3ae08bd:euclid-wm/start-euclid.in.patch
-f:9cf323bcf86bdf036ab4298dfa87d1f4:euclid-wm/README
-f:cdec9bf126287f27993ce11bcef45287:euclid-wm/.signature
+f:26b28c86ec983680c4cf961475e36cff:euclid-wm/README
+f:3751ba079a2af35313ac59f0abc3fcad:euclid-wm/.signature
 f:5682fb7bd25a3b79b56cec96647a9a4e:euclid-wm/.footprint
-f:48012e0c82fd40508c0053702b9ff687:euclid-wm/.md5sum
-f:40d0ec90e75d0a3f143098cc8d4e15c2:euclid-wm/Pkgfile
+f:a013490521c700368171e9bba052941c:euclid-wm/.md5sum
+f:1b823091f93f2e3553151dedd16409de:euclid-wm/Pkgfile

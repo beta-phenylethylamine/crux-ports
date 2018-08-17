@@ -1,3 +1,7 @@
+NOTES
+
+  This port has the stack hidden by default by a patch
+
 POST-INSTALL
 
   To set as your wm, add `exec start-euclid` to ~/.xinitrc
