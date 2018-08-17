@@ -1,0 +1,3 @@
+POST-INSTALL
+
+  To set as your wm, add `exec start-euclid` to ~/.xinitrc

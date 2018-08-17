@@ -1,0 +1,16 @@
+# Description: A highly flexible, minimal, dynamic, tiling window manager
+# URL:         http://euclid-wm.sourceforge.net
+# Maintainer:  beta-phenylethylamine, phenethylamine at tutanota dot com
+# Depends on:  gcc make xorg-libx11 xorg-libxinerama
+
+name=euclid-wm
+version=0.4.3
+release=1
+source=(http://euclid-wm.sourceforge.net/releases/$name-$version.tar.gz)
+
+build() {
+    cd $name-$version
+
+    make
+    make VER=$version DESTDIR=$PKG install
+}
