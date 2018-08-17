@@ -1,0 +1,48 @@
+--- euclid-wm.c	2018-08-17 18:13:23.849984192 -0400
++++ euclid-wm.c.2	2018-08-17 18:47:10.953279372 -0400
+@@ -1769,44 +1769,7 @@
+ 		int xo = s->x;
+ 		int yo = s->y;
+ 		int stackheight;
+-		if (s->v->showstack == false || s->v->fs == true) {
+-			stackheight = 0;
+-		} else {
+-			struct stack_item *si = s->v->stack;
+-			int i = 0;
+-			while (si != NULL) {
+-				i++;
+-				si = si->next;
+-			};
+-			stackheight = (i * 20); 
+-			if (i == 0) {
+-				stackheight = 8; 
+-			};
+-		};
+-		//draw the stack 
+-		XClearWindow(dpy,s->stackid);
+-		if (stackheight != 0) {
+-			XMoveResizeWindow(dpy,s->stackid,(res_left + xo),(((s->h - res_bot) - stackheight) + yo),(s->w - (res_left + res_right + 2)),(stackheight - 2));
+-			XRaiseWindow(dpy,s->stackid);
+-			XSync(dpy,false);//important!
+-			struct stack_item *si = s->v->stack;
+-			int i = 15;
+-			while (si != NULL) {
+-				GC gc;
+-				if (si == s->v->sfocus) {
+-					gc = focus_gc;
+-				} else {
+-					gc = unfocus_gc;
+-				};
+-				XTextProperty wmname;
+-				XGetWMName(dpy,si->win->id,&wmname);
+-				XDrawString(dpy,s->stackid,gc,3,i, (char *) wmname.value,wmname.nitems);
+-				si = si->next;
+-				i += 20;
+-			}; 
+-		} else { //hide stack
+-			XMoveResizeWindow(dpy,s->stackid,0,offscreen,s->w,10);
+-		};
++		stackheight = 0;
+ 		XSync(dpy,false);
+ 		if (s->v->mfocus == NULL && cs == s) {
+ 			XSetInputFocus(dpy,root,None,CurrentTime);

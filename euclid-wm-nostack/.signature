@@ -1,6 +1,7 @@
 untrusted comment: verify with /etc/ports/beta-phenylethylamine.pub
-RWTwKyFEl4N98ryzk4ThgwbO9Kgz50j3r7pXLtQjDVdVAicONvTQFwAyUDmfr4FI03eeSOyJHcrrYx4AuzzpNMErgwLpd3hNhgs=
-SHA256 (Pkgfile) = 229eef50118758203514e6e5c4aa6048fc01e4d533a95d37ed390922561fface
+RWTwKyFEl4N98qPU97tJ6+ymofP0hhr62SW9EmI52fVlFEaEn1PcKHtb0VfPIHodxmP6k5yqnuFt/0MmnekS7ddc3g9WUXUjTg0=
+SHA256 (Pkgfile) = 0c44d338d299252f09778be14f807d0d0f5f75f62f5be1af27e9cbd56a75e93c
 SHA256 (.footprint) = 10a266bd058e0e7c1f8d8e68be128ff9d922733f35acac3d2901890f6acac025
 SHA256 (euclid-wm-0.4.3.tar.gz) = 7498215584aabe3e035adc42fb3daa5b85d53e5a61836523eb670a1a724158db
 SHA256 (start-euclid.in.patch) = 6a0f00cb446314c44867bb9ad891fcac84b153585589649bc7cec66bfba02378
+SHA256 (euclid-wm.c.in.patch) = f03dea261b4882ceac476ff7ad599d78a069a13a22fd27eb3cace723e5c7038b
