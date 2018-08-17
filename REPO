@@ -6,13 +6,13 @@ f:97318845a218fa8602ad219366ffe2d6:pinentry-tty/.signature
 f:517e1dc6669a56e3278c10c676abf713:pinentry-tty/.footprint
 f:57befa6df49161d3b16ee4925f361537:pinentry-tty/.md5sum
 f:7aaf033cbfa555be697d54198a467b41:pinentry-tty/Pkgfile
-f:e3ce592dcc11fae67b52d2249d193c95:euclid-wm-nostack/euclid-wm.c.in.patch
+f:3773ecf00542df09b8d19cd629743458:euclid-wm-nostack/euclid-wm.c.in.patch
 f:6e793e9218c99ecaafe8370de3ae08bd:euclid-wm-nostack/start-euclid.in.patch
 f:26b28c86ec983680c4cf961475e36cff:euclid-wm-nostack/README
-f:7e23611647dfdc5bcddc830eab3610c5:euclid-wm-nostack/.signature
+f:d2d8b361ca54da8625553f549f027a5e:euclid-wm-nostack/.signature
 f:5682fb7bd25a3b79b56cec96647a9a4e:euclid-wm-nostack/.footprint
-f:e11b342c91fa9221bcc8d5302548c4c1:euclid-wm-nostack/.md5sum
-f:d0ec4f8a489d24b96188ea9c40af50b3:euclid-wm-nostack/Pkgfile
+f:d62ac4e1c00457865da6d332786d0ea8:euclid-wm-nostack/.md5sum
+f:d71a7d40d8eab5f9839c0c432d8fcda2:euclid-wm-nostack/Pkgfile
 f:6e793e9218c99ecaafe8370de3ae08bd:euclid-wm/start-euclid.in.patch
 f:9cf323bcf86bdf036ab4298dfa87d1f4:euclid-wm/README
 f:cdec9bf126287f27993ce11bcef45287:euclid-wm/.signature

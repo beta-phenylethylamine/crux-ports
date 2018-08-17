@@ -1,6 +1,6 @@
---- euclid-wm.c	2018-08-17 18:13:23.849984192 -0400
-+++ euclid-wm.c.2	2018-08-17 18:47:10.953279372 -0400
-@@ -1769,44 +1769,7 @@
+--- euclid-wm.c	2018-08-17 19:02:48.213346306 -0400
++++ euclid-wm.c.2	2018-08-17 19:10:11.260035406 -0400
+@@ -1769,44 +1769,8 @@
  		int xo = s->x;
  		int yo = s->y;
  		int stackheight;
@@ -43,6 +43,7 @@
 -			XMoveResizeWindow(dpy,s->stackid,0,offscreen,s->w,10);
 -		};
 +		stackheight = 0;
++		XMoveResizeWindow(dpy,s->stackid,0,offscreen,s->w,10);
  		XSync(dpy,false);
  		if (s->v->mfocus == NULL && cs == s) {
  			XSetInputFocus(dpy,root,None,CurrentTime);

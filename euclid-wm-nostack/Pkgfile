@@ -5,7 +5,7 @@
 
 name=euclid-wm-nostack
 version=0.4.3
-release=1
+release=2
 source=(http://euclid-wm.sourceforge.net/releases/euclid-wm-$version.tar.gz start-euclid.in.patch euclid-wm.c.in.patch)
 
 build() {
