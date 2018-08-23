@@ -1,6 +1,7 @@
 d:pinentry-tty
 d:euclid-wm-nostack
 d:euclid-wm
+d:emacs
 f:01ebe24b547bb0178a4f1124b78aa2f8:pinentry-tty/README
 f:97318845a218fa8602ad219366ffe2d6:pinentry-tty/.signature
 f:517e1dc6669a56e3278c10c676abf713:pinentry-tty/.footprint
@@ -19,3 +20,8 @@ f:cdec9bf126287f27993ce11bcef45287:euclid-wm/.signature
 f:5682fb7bd25a3b79b56cec96647a9a4e:euclid-wm/.footprint
 f:48012e0c82fd40508c0053702b9ff687:euclid-wm/.md5sum
 f:40d0ec90e75d0a3f143098cc8d4e15c2:euclid-wm/Pkgfile
+f:d65435b4c1a6718d722ae2289d70c8ba:emacs/README
+f:c4c62ea0988bbdebb73e5bac38ea7441:emacs/.signature
+f:a6cff96c93646634fefbadb583b1bc03:emacs/.footprint
+f:6dac52f4f5e0038b243677e9f8635809:emacs/.md5sum
+f:17feb81ec2533334611cf0981382d621:emacs/Pkgfile
