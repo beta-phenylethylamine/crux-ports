@@ -1,0 +1,29 @@
+# Description: Fast, reliable, and secure dependency management
+# URL:         http://yarnpkg.com
+# Maintainer:  beta-phenylethylamine, phenethylamine at tutanota dot com
+# Depends on:  nodejs
+
+name=yarn
+version=1.9.4
+release=1
+source=(https://github.com/yarnpkg/$name/archive/v$version.tar.gz https://github.com/yarnpkg/$name/releases/download/v$version/$name-v$version.tar.gz)
+
+build() {
+	cd $name-$version
+  
+  # yarn build-dist calls the yarn command explicitly a couple of times, so gotta do this
+	export PATH="../yarn-v1.9.4/bin:$PATH"
+
+	yarn install
+
+	yarn build-dist
+
+	cd dist
+
+	install -dm755 $PKG/usr/lib/node_modules/yarn
+  cp -R * $PKG/usr/lib/node_modules/yarn
+
+  install -dm755 $PKG/usr/bin
+  ln -s /usr/lib/node_modules/yarn/bin/yarn.js $PKG/usr/bin/yarn
+  ln -s /usr/lib/node_modules/yarn/bin/yarn.js $PKG/usr/bin/yarnpkg
+}

@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/beta-phenylethylamine.pub
+RWTwKyFEl4N98nY0JbthnuED7NwrVg+qB9y25cYUId6vxlhJwtJAqQ9PFOo5CANv4PcAZ3S5V02evDPUy6GnwNBcf1TH7Oc3sAI=
+SHA256 (Pkgfile) = ec17a7eb86459dc0c9d5ae3c1b8425ba71c31f2da1b0220a7694797896a69c67
+SHA256 (.footprint) = a31a912d22c3887de5ea4ed06e01a543ed1b2d125a2a585ae3b550b363c75311
+SHA256 (v1.9.4.tar.gz) = 6af347a6f9d6673700f69cb4c824a51dfc6c9deaae17a9a0ab1f709cf2afa8bc
+SHA256 (yarn-v1.9.4.tar.gz) = 7667eb715077b4bad8e2a832e7084e0e6f1ba54d7280dc573c8f7031a7fb093e

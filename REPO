@@ -1,5 +1,6 @@
 d:pinentry-tty
 d:euclid-wm-nostack
+d:yarn
 d:euclid-wm
 d:emacs
 f:01ebe24b547bb0178a4f1124b78aa2f8:pinentry-tty/README
@@ -14,6 +15,10 @@ f:d2d8b361ca54da8625553f549f027a5e:euclid-wm-nostack/.signature
 f:5682fb7bd25a3b79b56cec96647a9a4e:euclid-wm-nostack/.footprint
 f:d62ac4e1c00457865da6d332786d0ea8:euclid-wm-nostack/.md5sum
 f:d71a7d40d8eab5f9839c0c432d8fcda2:euclid-wm-nostack/Pkgfile
+f:7ac93d5f0d91924b9b173b5abd6d23f6:yarn/.signature
+f:407feceda3c87229ad4a22a0dd7a1e89:yarn/.footprint
+f:50a239d9617336404c5c3aa9d536db3f:yarn/.md5sum
+f:56c095c19468d26eda1bfb0ed1bb11cd:yarn/Pkgfile
 f:6e793e9218c99ecaafe8370de3ae08bd:euclid-wm/start-euclid.in.patch
 f:9cf323bcf86bdf036ab4298dfa87d1f4:euclid-wm/README
 f:cdec9bf126287f27993ce11bcef45287:euclid-wm/.signature
