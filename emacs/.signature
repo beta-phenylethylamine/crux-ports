@@ -1,4 +1,5 @@
 untrusted comment: verify with /etc/ports/beta-phenylethylamine.pub
-RWTwKyFEl4N98je3WN+69cl+a8atPZhljIT0LDAtIk/k3sWChl+YkeK+l9RHag0yxy+8Rup9MmeKGF/BVmvGQaYBqR97aOEz2Qc=
-SHA256 (Pkgfile) = 16ad4e542c0991e52f725e28bd232eea7f978f1dc235971ab22b96abd0783dea
-SHA256 (emacs-25.3.tar.xz) = 253ac5e7075e594549b83fd9ec116a9dc37294d415e2f21f8ee109829307c00b
+RWTwKyFEl4N98szZVyVLYfGtNuolbGMNcxilvfq4QVy1gd9kHdBBi3ra+OhqyrHKXo+D6/aI4Hp0PaEMrutgkWiE0b9nGFYvXgg=
+SHA256 (Pkgfile) = ccfd6f7731d005828b59ede96c59fb9fd0a91aab242b631679cdfa4df7b03c97
+SHA256 (.footprint) = 06ef099bfb3d44befc74a01de237f6deecab89210b113693cde931efbb2489bb
+SHA256 (emacs-26.1.tar.xz) = 1cf4fc240cd77c25309d15e18593789c8dbfba5c2b44d8f77c886542300fd32c

@@ -21,7 +21,7 @@ f:5682fb7bd25a3b79b56cec96647a9a4e:euclid-wm/.footprint
 f:48012e0c82fd40508c0053702b9ff687:euclid-wm/.md5sum
 f:40d0ec90e75d0a3f143098cc8d4e15c2:euclid-wm/Pkgfile
 f:d65435b4c1a6718d722ae2289d70c8ba:emacs/README
-f:c4c62ea0988bbdebb73e5bac38ea7441:emacs/.signature
-f:a6cff96c93646634fefbadb583b1bc03:emacs/.footprint
-f:6dac52f4f5e0038b243677e9f8635809:emacs/.md5sum
-f:17feb81ec2533334611cf0981382d621:emacs/Pkgfile
+f:68621ceae3cb2fc61e07bfba5fbb84c0:emacs/.signature
+f:e668c9cf8ef322ce2afdc04bfb2e8b6c:emacs/.footprint
+f:0cc74d45fc985482c628fef7a2173d96:emacs/.md5sum
+f:7c01242ce7301cff26973d914a932a68:emacs/Pkgfile
